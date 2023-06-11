@@ -1,0 +1,173 @@
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer p {
+  margin: 0;
+}
+
+.social-icons {
+  display: flex;
+}
+
+.social-icons li {
+  margin-right: 10px;
+}
+
+.social-icons a {
+  color: #3fa300d5;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background-color: #555;
+  transition: all 0.3s ease;
+}
+.filters {
+  width: 30%;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.social-icons a:hover {
+  background-color: #fff;
+  color: #333;
+}
+
+.social-icons a:hover i {
+  transform: scale(1.2);
+}
+
+.social-icons i {
+  transition: all 0.3s ease;
+}
+
+.newsletter {
+  background-color: #f2f2f2;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 20px;
+  padding: 20px;
+  width: 500px;
+  margin-left: 35%;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input[type="email"] {
+  border-radius: 5px;
+  border: none;
+  padding: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+input[type="submit"] {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  width: 100%;
+  cursor: pointer;
+}
+.cd {
+  border: 1px solid black;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 20px auto;
+  padding: 30px;
+  max-width: 500px;
+}
+
+h1 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+.rd {
+  text-align: center;
+  color: black;
+}
+
+.logo-img {
+  height: 40px;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+.car {
+  width: 70%;
+  display: right;
+  align-items: right;
+}
+.green {
+  background-color: rgb(88, 140, 88);
+}
+
+.tam {
+  margin-left: 12%;
+}
+button {
+  color: rgb(228, 212, 180);
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background: #dfdfdf;
+  padding: 0.7rem 1rem;
+  border-radius: 8px;
+  margin: 0 40px;
+  margin-bottom: 2%;
+}
+
+.img {
+  width: 70%;
+}
+.right {
+  display: right;
+  text-align: right;
+  align-items: right;
+}
+
+.navbar-color {
+    background-color: #dfdfdf;
+}
